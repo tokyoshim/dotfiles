@@ -18,6 +18,7 @@ vim.keymap.set('n', '<leader>k', '<cmd>lnext<CR>zz')
 vim.keymap.set('n', '<leader>j', '<cmd>lprev<CR>zz')
 
 --clipboard
-vim.keymap.set('n', '<leader>y', "\"+y")
 vim.keymap.set('v', '<leader>y', "\"+y")
 vim.keymap.set('n', '<leader>Y', "\"+Y")
+vim.keymap.set('v', '<leader>x', "\"+d")
+vim.keymap.set('n', '<leader>X', "\"+dd")
